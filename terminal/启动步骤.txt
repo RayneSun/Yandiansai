@@ -1,0 +1,10 @@
+插入U盘
+mount /dev/sda1 /mnt 
+cd /run/media/sda1
+cp XXX /home/root
+umount /mnt
+
+拔掉U盘，插入摄像头
+关闭 Matrix 界面 
+ /etc/init.d/matrix-gui-2.0 stop 
+执行
